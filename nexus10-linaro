@@ -1,0 +1,11 @@
+MANIFEST_REPO=https://android.googlesource.com/platform/manifest
+MANIFEST_BRANCH=android-5.1.0_r3
+USE_JAVA_7=true
+MANIFEST_FILENAME=default.xml
+SOURCE_OVERLAY="manta/android-5.0/build-info.tar.bz2"
+TARGET_PRODUCT=full_manta
+TARGET_BUILD_VARIANT=userdebug
+MAKE_TARGETS=droidcore
+MAKE_JOBS=8
+RAMDISK_SIZE=0
+LINARO_BUILD_SPEC=nexus10-linaro

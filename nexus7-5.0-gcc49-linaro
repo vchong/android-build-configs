@@ -1,0 +1,17 @@
+MANIFEST_REPO=https://android.googlesource.com/platform/manifest
+MANIFEST_BRANCH=android-5.1.0_r3
+LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=linaro_android_5.0.0_toolchains
+USE_JAVA_7=true
+REPO_GROUPS="default,-device,-non-default,flo"
+MANIFEST_FILENAME=default.xml
+SOURCE_OVERLAY="flo/android-5.0/build-info.tar.bz2"
+TARGET_PRODUCT=full_flo
+TARGET_BUILD_VARIANT=eng
+MAKE_TARGETS=droidcore
+TOOLCHAIN_TRIPLET=arm-linux-androideabi
+MAKE_JOBS=6
+RAMDISK_SIZE=0
+LINARO_BUILD_SPEC=nexus7-5.0-gcc49-linaro
+TARGET_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro/bin/arm-linux-androideabi-
+PATCHSETS="get-flo-blobs LOLLIPOP-GCC49"

@@ -1,0 +1,15 @@
+MANIFEST_REPO=https://android.googlesource.com/platform/manifest
+MANIFEST_BRANCH=android-5.1.0_r3
+LOCAL_MANIFEST=https://github.com/96boards/android_manifest
+LOCAL_MANIFEST_BRANCH=android-5.0
+REPO_GROUPS="default,-device,-non-default,hikey"
+#PATCHSETS=LOLLIPOP-STABLE-PATCHSET
+PATCHSETS=board-workarounds
+MAKE_JOBS=6
+USE_JAVA_7=true
+MAKE_TARGETS="droidcore"
+MANIFEST_FILENAME=default.xml
+LUNCH=hikey-userdebug
+TARGET_PRODUCT=hikey
+TARGET_SIMULATOR=false
+SOURCE_OVERLAY="open/20131008/build-info.tar.bz2"
