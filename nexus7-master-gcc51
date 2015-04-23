@@ -1,0 +1,13 @@
+MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
+MANIFEST_BRANCH=master
+MANIFEST_FILENAME=default.xml
+USE_JAVA_7=true
+TARGET_PRODUCT=aosp_flo
+LUNCH=aosp_flo-userdebug
+SOURCE_OVERLAY="flo/20131216/build-info.tar.bz2"
+MAKE_TARGETS=droidcore
+PATCHSETS="get-flo-blobs"
+USE_CLANG_PLATFORM_BUILD=true
+LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=linaro_android_5.0.0_toolchains
+TARGET_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-linaro/bin/arm-linux-androideabi-
