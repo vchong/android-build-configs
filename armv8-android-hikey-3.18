@@ -11,4 +11,4 @@ MANIFEST_FILENAME=default.xml
 LUNCH=hikey-userdebug
 TARGET_PRODUCT=hikey
 TARGET_SIMULATOR=false
-SOURCE_OVERLAY="open/20131008/build-info.tar.bz2"
+SOURCE_OVERLAY="hikey/20150514/build-info.tar.bz2"
