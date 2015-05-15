@@ -1,5 +1,5 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
-MANIFEST_BRANCH=android-5.1.1_r1
+MANIFEST_BRANCH=android-5.1.1_r2
 USE_JAVA_7=true
 MANIFEST_FILENAME=default.xml
 SOURCE_OVERLAY="manta/android-5.0/build-info.tar.bz2"

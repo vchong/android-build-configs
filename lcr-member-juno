@@ -1,5 +1,5 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
-MANIFEST_BRANCH=android-5.1.1_r1
+MANIFEST_BRANCH=android-5.1.1_r2
 REPO_GROUPS="default,-device,-non-default,juno"
 BUILD_FS_IMAGE=1
 PATCHSETS=LOLLIPOP-EXPERIMENTAL-PATCHSET
