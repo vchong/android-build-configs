@@ -2,10 +2,6 @@ MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
 MANIFEST_BRANCH=master
 MANIFEST_FILENAME=default.xml
 USE_JAVA_7=true
-TARGET_PRODUCT=aosp_flo
-TARGET_BUILD_VARIANT=userdebug
+LUNCH=aosp_flo-userdebug
 SOURCE_OVERLAY="flo/android-5.1/build-info.tar.bz2"
 MAKE_TARGETS=droidcore
-TARGET_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-
-# pfalcon 2014-03-06 debugging lp:1287618
-SYNC_JOBS=1
