@@ -1,4 +1,4 @@
 [gerrit]
-host=android.git.linaro.org
+host=review.android.git.linaro.org
 port=29418
 project=android-build-configs.git
