@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest
-MANIFEST_BRANCH=android-5.1.1_r3
+MANIFEST_BRANCH=android-5.1.1_r4
 LOCAL_MANIFEST=https://github.com/96boards/android_manifest
 LOCAL_MANIFEST_BRANCH=android-5.0
 REPO_GROUPS="default,-device,-non-default,hikey"

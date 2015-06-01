@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest
-MANIFEST_BRANCH=android-5.1.1_r3
+MANIFEST_BRANCH=android-5.1.1_r4
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=lor_ice_lolly_mr1
 REPO_GROUPS="default,-device,-non-default,vexpress"
