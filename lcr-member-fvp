@@ -1,4 +1,4 @@
-MANIFEST_REPO=https://android.googlesource.com/platform/manifest
+MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
 MANIFEST_BRANCH=android-5.1.1_r4
 REPO_GROUPS="default,-non-default,fvp-armv8"
 PATCHSETS=LOLLIPOP-MLCR-PATCHSET
