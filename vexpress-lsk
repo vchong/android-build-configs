@@ -1,8 +1,8 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
 MANIFEST_BRANCH=android-5.0.2_r1
 LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
-LOCAL_MANIFEST_BRANCH=linaro_android_5.0.0
-REPO_GROUPS="default,-device,-non-default,vexpress"
+LOCAL_MANIFEST_BRANCH=linaro-lollipop
+REPO_GROUPS="default,-device,lsk"
 #PATCHSETS=LOLLIPOP-EXPERIMENTAL-PATCHSET
 MAKE_JOBS=6
 BUILD_FS_IMAGE=1
@@ -26,3 +26,4 @@ LAVA_JOB_URL_2=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android
 SUBMIT_JOB_FROM_URL=true
 LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
+REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror

@@ -1,7 +1,7 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
 MANIFEST_BRANCH=android-5.1.1_r4
 LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
-LOCAL_MANIFEST_BRANCH=linaro_android_5.0.0_toolchains
+LOCAL_MANIFEST_BRANCH=linaro-lollipop
 USE_JAVA_7=true
 REPO_GROUPS="default,-device,-non-default,flo"
 MANIFEST_FILENAME=default.xml

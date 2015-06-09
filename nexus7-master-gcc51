@@ -9,5 +9,5 @@ MAKE_TARGETS=droidcore
 PATCHSETS="get-flo-blobs"
 USE_CLANG_PLATFORM_BUILD=true
 LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
-LOCAL_MANIFEST_BRANCH=linaro_android_5.0.0_toolchains
+LOCAL_MANIFEST_BRANCH=linaro-lollipop
 TARGET_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-linaro/bin/arm-linux-androideabi-

@@ -1,6 +1,6 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
 MANIFEST_BRANCH=android-5.1.1_r4
-REPO_GROUPS="default,-non-default,-device,vexpress"
+REPO_GROUPS="default,-device,lsk"
 TARGET_KERNEL_SOURCE=kernel/linaro/vexpress
 MAKE_TARGETS="selinuxtarballs"
 #PATCHSETS=LOLLIPOP-EXPERIMENTAL-PATCHSET
@@ -20,3 +20,4 @@ LAVA_JOB_URL=http://people.linaro.org/~vishal.bhoj/armv8-lsk-3.14.json
 SUBMIT_JOB_FROM_URL=true
 LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
+REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror

@@ -1,10 +1,10 @@
 MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
 MANIFEST_BRANCH=android-5.1.1_r4
-REPO_GROUPS="default,-device,-non-default,juno"
+REPO_GROUPS="default,-device,arm"
 BUILD_FS_IMAGE=1
 PATCHSETS=LOLLIPOP-EXPERIMENTAL-PATCHSET
 LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
-LOCAL_MANIFEST_BRANCH=linaro_android_5.0.0_toolchains
+LOCAL_MANIFEST_BRANCH=linaro-lollipop
 USE_LINARO_TOOLCHAIN=true
 LUNCH=juno-userdebug
 TARGET_PRODUCT=juno
@@ -49,3 +49,4 @@ SOURCE_OVERLAY_ACCEPT_LICENSE=51722ba4ccc270bcd54cb360cb242798
 REWRITE_MANIFEST=0
 TARGET_OUT_DIR=juno
 INIT_BOOTCHART=true
+REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror

@@ -28,3 +28,4 @@ SOURCE_OVERLAY_ACCEPT_LICENSE=51722ba4ccc270bcd54cb360cb242798
 REWRITE_MANIFEST=0
 MAKE_TARGETS="selinuxtarballs"
 USE_CLANG_PLATFORM_BUILD=true
+REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
