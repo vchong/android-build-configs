@@ -27,3 +27,4 @@ LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
 SKIP_LICENSE_CHECK=1
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
+BUILD_FS_IMAGE=1

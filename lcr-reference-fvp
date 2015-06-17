@@ -22,3 +22,4 @@ SUBMIT_JOB_FROM_URL=true
 LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
+BUILD_FS_IMAGE=1
