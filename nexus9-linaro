@@ -1,0 +1,10 @@
+MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
+MANIFEST_BRANCH=android-5.1.1_r4
+MANIFEST_FILENAME=default.xml
+LUNCH=aosp_flounder-userdebug
+TARGET_OUT_DIR=flounder
+SOURCE_OVERLAY="open/20131008/build-info.tar.bz2"
+USE_JAVA_7=true
+LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=linaro-lollipop
+PATCHSETS=nexus9-workarounds
