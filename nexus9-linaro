@@ -9,3 +9,4 @@ LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-lollipop
 PATCHSETS=nexus9-workarounds
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
+MAKE_TARGETS=droidcore
