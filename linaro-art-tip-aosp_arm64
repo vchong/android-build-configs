@@ -3,5 +3,5 @@ MANIFEST_BRANCH=master
 LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=master
 LUNCH_TARGET=aosp_arm64-eng
-REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
+REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 BOOT_TO_GUI_TEST=1
