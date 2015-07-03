@@ -3,5 +3,5 @@ MANIFEST_BRANCH=lollipop-mr1-dev
 LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=lor_ice_lolly_mr1
 LUNCH_TARGET=nano_arm64-eng
-REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
+#REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 PATCHSETS=LOLLIPOP-MLCR-PATCHSET
