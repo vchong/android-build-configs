@@ -14,4 +14,5 @@ SUBMIT_JOB_FROM_TEST_PLAN=false
 SUBMIT_JOB_FROM_URL=true
 LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
-LAVA_JOB_URL=http://people.linaro.org/~yongqin.liu/images/nexus9/nexus9-master.json
+LAVA_JOB_URL=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/nexus9-aosp-master/nexus9-master.json
+TARGET_PREBUILT_KERNEL=device/htc/flounder-kernel/Image.gz-dtb
