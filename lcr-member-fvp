@@ -1,7 +1,7 @@
 MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
 MANIFEST_BRANCH=android-5.1.1_12
 REPO_GROUPS="default,-device,arm"
-PATCHSETS=LOLLIPOP-MLCR-PATCHSET
+PATCHSETS=LOLLIPOP-MLCR-PATCHSET LOLLIPOP-CHROMIUM-PATCHSET
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-lollipop
 USE_LINARO_TOOLCHAIN=true
