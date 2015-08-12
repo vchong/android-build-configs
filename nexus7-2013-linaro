@@ -1,5 +1,5 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
-MANIFEST_BRANCH=android-5.1.1_12
+MANIFEST_BRANCH=android-5.1.1_r13
 USE_JAVA_7=true
 MANIFEST_FILENAME=default.xml
 REPO_GROUPS="default,-device,-non-default,flo"
