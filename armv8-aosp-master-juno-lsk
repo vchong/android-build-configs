@@ -1,4 +1,4 @@
-MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest.git
+MANIFEST_REPO=https://android.googlesource.com/platform/manifest
 MANIFEST_BRANCH=master
 MANIFEST_FILENAME=default.xml
 BUILD_FS_IMAGE=1
