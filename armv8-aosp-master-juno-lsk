@@ -27,6 +27,6 @@ SOURCE_OVERLAY="arm/20150612/vendor.tar.bz2"
 SOURCE_OVERLAY_ACCEPT_LICENSE=51722ba4ccc270bcd54cb360cb242798
 REWRITE_MANIFEST=0
 MAKE_TARGETS="selinuxtarballs"
-REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
+#REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 INCLUDE_STLPORT_FOR_MASTER=true
 INCLUDE_LAVA_HACK_FOR_MASTER=true
