@@ -2,6 +2,6 @@ MANIFEST_URL=git://android-git.linaro.org/platform/manifest
 MANIFEST_BRANCH=android-m-preview-1
 LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=lor_m_preview
-LUNCH_TARGET=aosp_arm64-eng
+LUNCH_TARGET=aosp_arm64-userdebug
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 BOOT_TO_GUI_TEST=1
