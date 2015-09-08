@@ -1,0 +1,6 @@
+MANIFEST_URL=git://android-git.linaro.org/platform/manifest
+MANIFEST_BRANCH=master
+LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=master
+LUNCH_TARGET=aosp_flounder-userdebug
+REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
