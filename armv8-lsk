@@ -1,5 +1,5 @@
 MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
-MANIFEST_BRANCH=android-5.1.1_r13
+MANIFEST_BRANCH=android-5.1.1_r14
 REPO_GROUPS="default,-device,lsk"
 TARGET_KERNEL_SOURCE=kernel/linaro/vexpress
 #PATCHSETS=LOLLIPOP-EXPERIMENTAL-PATCHSET

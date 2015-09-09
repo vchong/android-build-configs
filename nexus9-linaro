@@ -1,5 +1,5 @@
 MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
-MANIFEST_BRANCH=android-5.1.1_r13
+MANIFEST_BRANCH=android-5.1.1_r14
 MANIFEST_FILENAME=default.xml
 LUNCH=aosp_flounder-userdebug
 TARGET_OUT_DIR=flounder
