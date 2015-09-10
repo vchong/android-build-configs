@@ -1,5 +1,5 @@
 MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
-MANIFEST_BRANCH=android-5.1.1_r13
+MANIFEST_BRANCH=android-5.1.1_r14
 REPO_GROUPS="default,-device,arm"
 PATCHSETS=LOLLIPOP-MLCR-PATCHSET LOLLIPOP-CHROMIUM-PATCHSET
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
@@ -22,7 +22,7 @@ SUBMIT_JOB_FROM_URL=true
 LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
 LINARO_BUILD_SPEC=armv8-android-juno-lsk
-SOURCE_OVERLAY="arm/20150612-members-only/vendor.tar.bz2"
+SOURCE_OVERLAY="arm/20150904-members-only/vendor.tar.bz2"
 SOURCE_OVERLAY_ACCEPT_LICENSE=51722ba4ccc270bcd54cb360cb242798
 REWRITE_MANIFEST=0
 TARGET_OUT_DIR=juno
