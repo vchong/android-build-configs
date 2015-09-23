@@ -30,3 +30,4 @@ MAKE_TARGETS="selinuxtarballs"
 #REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 INCLUDE_STLPORT_FOR_MASTER=true
 INCLUDE_LAVA_HACK_FOR_MASTER=true
+USE_NINJA=false
