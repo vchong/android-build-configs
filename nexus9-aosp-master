@@ -18,3 +18,4 @@ LAVA_SUBMIT_FATAL=0
 LAVA_JOB_URL=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/nexus9-aosp-master/nexus9-master.json
 TARGET_PREBUILT_KERNEL=device/htc/flounder-kernel/Image.gz-dtb
 TARGET_PRODUCT=aosp_flounder
+USE_NINJA=false
