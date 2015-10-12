@@ -1,0 +1,7 @@
+MANIFEST_URL=https://android.googlesource.com/platform/manifest
+MANIFEST_BRANCH=marshmallow-dev
+LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=lor_marshmallow
+LUNCH_TARGET=aosp_arm64-userdebug
+REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
+BOOT_TO_GUI_TEST=1
