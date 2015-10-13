@@ -4,4 +4,4 @@ LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/mani
 LOCAL_MANIFEST_BRANCH=lor_marshmallow
 LUNCH_TARGET=juno-userdebug
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
-PATCHSETS=nexus9-master-workarounds
+#PATCHSETS=nexus9-master-workarounds
