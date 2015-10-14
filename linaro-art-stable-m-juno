@@ -3,5 +3,6 @@ MANIFEST_BRANCH=marshmallow-dev
 LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=lor_marshmallow
 LUNCH_TARGET=juno-userdebug
+MAKE_TARGETS=selinuxtarballs
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 #PATCHSETS=nexus9-master-workarounds
