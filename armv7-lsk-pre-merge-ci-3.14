@@ -1,4 +1,4 @@
-MANIFEST_REPO=git://android.git.linaro.org/platform/manifest.git
+MANIFEST_REPO=http://android-git.linaro.org/platform/manifest.git
 MANIFEST_BRANCH=linaro_android_kernel_ci
 ANDROID_PREBUILT_URL=http://releases.linaro.org/14.06/android/images/vexpress-lsk
 MAKE_TARGETS=combine_kernel_prebuilt
