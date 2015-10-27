@@ -1,4 +1,4 @@
-MANIFEST_REPO=git://android.git.linaro.org/platform/manifest
+MANIFEST_REPO=http://android-git.linaro.org/platform/manifest
 MANIFEST_BRANCH=master
 MANIFEST_FILENAME=default.xml
 USE_JAVA_7=true
@@ -8,5 +8,5 @@ SOURCE_OVERLAY="manta/4.4.4/build-info.tar.bz2"
 MAKE_TARGETS=droidcore
 PATCHSETS="get-manta-blobs AOSP-CLANG-MINIMAL-PATCHSET"
 USE_CLANG_PLATFORM_BUILD=true
-LOCAL_MANIFEST=git://android.git.linaro.org/platform/manifest.git
+LOCAL_MANIFEST=http://android-git.linaro.org/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro_android_clang_master
