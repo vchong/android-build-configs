@@ -1,5 +1,5 @@
 BUILD_TYPE=build-android-restricted
-MANIFEST_REPO=http://android-git.linaro.org/platform/manifest.git
+MANIFEST_REPO=http://android-git.linaro.org/git/platform/manifest.git
 MANIFEST_BRANCH=linaro_android_kernel_ci
 ANDROID_PREBUILT_URL=http://snapshots.linaro.org/android/~linaro-android/armv8-lsk-14.10-release/4
 MAKE_TARGETS=combine_kernel_prebuilt
