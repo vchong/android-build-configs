@@ -8,3 +8,4 @@ REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 PATCHSETS=juno-m-workarounds
 SOURCE_OVERLAY="arm/20151111-members-only/vendor.tar.bz2"
 SOURCE_OVERLAY_ACCEPT_LICENSE=51722ba4ccc270bcd54cb360cb242798
+LAVA_JOB_URL=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/armv8-android-juno-lsk/template-wa-benchmarks.json
