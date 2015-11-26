@@ -1,10 +1,10 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
 MANIFEST_BRANCH=android-6.0.0_r26
 REPO_GROUPS="default,-non-default,-device,hikey"
-PATCHSETS="hikey-m-workarounds MARSHMALLOW-MLCR-PATCHSET"
+PATCHSETS="hikey-m-workarounds MARSHMALLOW-MLCR-PATCHSET marshmallow-gcc5-patchset"
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-marshmallow
-USE_LINARO_TOOLCHAIN=false
+TARGET_GCC_VERSION_EXP=5.3-linaro
 LUNCH=hikey-userdebug
 TARGET_PRODUCT=hikey
 #SUBMIT_JOB_FROM_TEST_PLAN=false
