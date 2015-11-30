@@ -1,5 +1,5 @@
 MANIFEST_URL=https://android.googlesource.com/platform/manifest
-MANIFEST_BRANCH=marshmallow-dev
+MANIFEST_BRANCH=android-6.0.0_r26
 LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=lor_marshmallow
 LUNCH_TARGET=juno-userdebug
