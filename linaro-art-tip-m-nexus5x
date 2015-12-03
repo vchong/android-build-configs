@@ -8,3 +8,4 @@ REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 SUBMIT_JOB_FROM_URL=true
 LAVA_SERVER=validation.linaro.org/RPC2/
 LAVA_JOB_URL=https://git.linaro.org/qa/test-plans.git/blob_plain/refs/heads/master:/android/nexus5x/template-nexus5x-boot.json
+REPO_SEED_DIR=/home/buildslave/srv/linaro-art-tip-aosp-reference/
