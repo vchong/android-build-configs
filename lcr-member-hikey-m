@@ -38,6 +38,7 @@ LAVA_JOB_URL_17=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/androi
 LAVA_JOB_URL_18=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/hikey/template-vellamo3.json
 LAVA_JOB_URL_19=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/hikey/template-applications.json
 LAVA_JOB_URL_20=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/hikey/template-caffeinemark.json
+LAVA_JOB_URL_21=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/hikey/template-antutu6.0.json
 SUBMIT_JOB_FROM_URL=true
 LAVA_SUBMIT=1
 LAVA_SUBMIT_FATAL=0
