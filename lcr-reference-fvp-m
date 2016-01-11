@@ -1,5 +1,5 @@
 MANIFEST_REPO=http://android-git.linaro.org/git/platform/manifest.git
-MANIFEST_BRANCH=android-6.0.0_r26
+MANIFEST_BRANCH=android-6.0.1_r10
 REPO_GROUPS="default,-device,arm"
 PATCHSETS=MARSHMALLOW-RLCR-PATCHSET
 LOCAL_MANIFEST=http://android-git.linaro.org/git/platform/manifest.git
