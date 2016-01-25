@@ -5,3 +5,4 @@ LOCAL_MANIFEST_BRANCH=master
 LUNCH_TARGET=aosp_arm64-userdebug
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-tip-aosp-reference/
 BOOT_TO_GUI_TEST=1
+LEGACY_USE_JAVA7=true
