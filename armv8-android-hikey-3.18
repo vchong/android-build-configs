@@ -1,6 +1,6 @@
 MANIFEST_REPO=http://android-git.linaro.org/git/platform/manifest.git
 MANIFEST_BRANCH=android-5.1.1_r24
-LOCAL_MANIFEST=https://github.com/96boards/android_manifest
+LOCAL_MANIFEST=https://github.com/96boards-hikey/android_manifest
 LOCAL_MANIFEST_BRANCH=android-5.0
 REPO_GROUPS="default,-device,-non-default,hikey"
 MAKE_JOBS=16
