@@ -27,7 +27,6 @@ LAVA_JOB_URL_7=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android
 LAVA_JOB_URL_8=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-cf-bench.json
 LAVA_JOB_URL_9=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-gearses2eclair.json
 LAVA_JOB_URL_10=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-geekbench3.json
-LAVA_JOB_URL_11=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-glbenchmark-2.5.1.json
 LAVA_JOB_URL_12=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-javawhetstone.json
 LAVA_JOB_URL_13=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-jbench.json
 LAVA_JOB_URL_14=https://git.linaro.org/qa/test-plans.git/blob_plain/HEAD:/android/lcr-member-juno-m/template-linpack.json
