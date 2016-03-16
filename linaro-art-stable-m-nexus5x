@@ -1,5 +1,5 @@
 MANIFEST_URL=https://android-git.linaro.org/git/platform/manifest
-MANIFEST_BRANCH=android-6.0.1_r16
+MANIFEST_BRANCH=android-6.0.1_r22
 LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=lor_marshmallow
 LUNCH_TARGET=aosp_bullhead-userdebug

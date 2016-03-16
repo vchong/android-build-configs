@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-6.0.1_r16
+MANIFEST_BRANCH=android-6.0.1_r22
 REPO_GROUPS="default,-non-default,-device,hikey"
 PATCHSETS="hikey-m-workarounds MARSHMALLOW-MLCR-PATCHSET marshmallow-gcc5-patchset"
 MALLOC_IMPL=dlmalloc
