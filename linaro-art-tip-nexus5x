@@ -7,7 +7,10 @@ MAKE_TARGETS=dist
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-aosp-mirror/
 SUBMIT_JOB_FROM_URL=true
 LAVA_SERVER=validation.linaro.org/RPC2/
-LAVA_JOB_URL=https://git.linaro.org/qa/test-plans.git/blob_plain/refs/heads/master:/android/nexus5x/template-nexus5x-boot.json
+LAVA_JOB_URL=https://git.linaro.org/qa/test-plans.git/blob_plain/refs/heads/master:/android/nexus5x/nexus5x-ubenchmarks-32bit-a53.json
+LAVA_JOB_URL_1=https://git.linaro.org/qa/test-plans.git/blob_plain/refs/heads/master:/android/nexus5x/nexus5x-ubenchmarks-32bit-a57.json
+LAVA_JOB_URL_2=https://git.linaro.org/qa/test-plans.git/blob_plain/refs/heads/master:/android/nexus5x/nexus5x-ubenchmarks-64bit-a53.json
+LAVA_JOB_URL_3=https://git.linaro.org/qa/test-plans.git/blob_plain/refs/heads/master:/android/nexus5x/nexus5x-ubenchmarks-64bit-a57.json
 PATCHSETS=nexus5x-workarounds
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-tip-aosp-reference/
 
