@@ -6,7 +6,6 @@ REPO_GROUPS="default,-device,-non-default,hikey"
 MAKE_JOBS=16
 USE_JAVA_7=true
 MAKE_TARGETS="droidcore"
-TARGET_USERDATAIMAGE_4GB=true
 MANIFEST_FILENAME=default.xml
 LUNCH=hikey-userdebug
 TARGET_PRODUCT=hikey
