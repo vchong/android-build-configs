@@ -5,6 +5,7 @@ PATCHSETS=MARSHMALLOW-RLCR-PATCHSET
 LOCAL_MANIFEST=http://android-git.linaro.org/git/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-marshmallow
 MAKE_TARGETS="selinuxtarballs"
+LUNCH=fvp-userdebug
 TARGET_PRODUCT=fvp
 USE_JAVA_7=true
 BOOTLOADER_TYPE=uefi
