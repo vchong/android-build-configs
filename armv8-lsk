@@ -1,9 +1,9 @@
-MANIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
+MANIFEST_REPO=http://android-git.linaro.org/git/platform/manifest
 MANIFEST_BRANCH=android-5.1.1_r24
 REPO_GROUPS="default,-device,lsk"
 TARGET_KERNEL_SOURCE=kernel/linaro/vexpress
 #PATCHSETS=LOLLIPOP-EXPERIMENTAL-PATCHSET
-LOCAL_MANIFEST=http://android.git.linaro.org/git/platform/manifest.git
+LOCAL_MANIFEST=http://android-git.linaro.org/git/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-lollipop
 TARGET_PRODUCT=fvp
 USE_JAVA_7=true

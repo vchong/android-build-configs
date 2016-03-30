@@ -1,4 +1,4 @@
-NIFEST_REPO=http://android.git.linaro.org/git/platform/manifest
+NIFEST_REPO=http://android-git.linaro.org/git/platform/manifest
 MANIFEST_BRANCH=headless-apm
 TARGET_PRODUCT=apm
 MAKE_JOBS=6
