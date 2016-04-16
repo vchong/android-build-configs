@@ -1,8 +1,8 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-n-preview-1
+MANIFEST_BRANCH=android-n-preview-2
 REPO_GROUPS="default,-non-default,-device,hikey"
 PATCHSETS="hikey-n-workarounds N-PREVIEW-PATCHSET"
-MALLOC_IMPL=dlmalloc
+MALLOC_SVELTE=true
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-n-preview
 #TARGET_GCC_VERSION_EXP=5.3-linaro
