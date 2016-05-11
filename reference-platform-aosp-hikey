@@ -10,5 +10,5 @@ MANIFEST_FILENAME=default.xml
 LUNCH=hikey-userdebug
 TARGET_PRODUCT=hikey
 TARGET_SIMULATOR=false
-SOURCE_OVERLAY="hikey/20160113/vendor.tar.bz2"
+SOURCE_OVERLAY="members-only/20131022/build-info.tar.bz2"
 BOOTLOADER_TYPE=uefi
