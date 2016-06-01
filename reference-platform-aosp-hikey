@@ -1,7 +1,9 @@
 MANIFEST_REPO=git://android-git.linaro.org/platform/manifest.git
 MANIFEST_BRANCH=android-6.0.1_r43
-LOCAL_MANIFEST=https://github.com/96boards/android_manifest
-LOCAL_MANIFEST_BRANCH=android-6.0
+hikey-m-workarounds
+LOCAL_MANIFEST=http://android-git.linaro.org/git/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=linaro-marshmallow
+PATCHSETS="hikey-m-workarounds"
 REPO_GROUPS="default,-device,-non-default,hikey"
 MAKE_JOBS=16
 USE_JAVA_7=true
