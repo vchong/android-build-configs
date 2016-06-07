@@ -1,0 +1,5 @@
+MANIFEST_URL=https://android-git.linaro.org/git/platform/manifest
+MANIFEST_BRANCH=master
+LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=master
+REPO_SEED_DIR=/home/buildslave/srv/linaro-art-tip-aosp-reference/
