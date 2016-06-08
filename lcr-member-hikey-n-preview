@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-n-preview-2
+MANIFEST_BRANCH=android-n-preview-3
 REPO_GROUPS="default,-non-default,-device,hikey"
 PATCHSETS="hikey-n-workarounds N-PREVIEW-PATCHSET"
 MALLOC_SVELTE=true
