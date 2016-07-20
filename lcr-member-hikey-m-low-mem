@@ -1,12 +1,12 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
 MANIFEST_BRANCH=android-6.0.1_r55
 REPO_GROUPS="default,-non-default,-device,hikey"
-PATCHSETS="get-hikey-blobs hikey-m-workarounds-low-mem MARSHMALLOW-MLCR-PATCHSET marshmallow-gcc5-patchset"
+PATCHSETS="get-hikey-blobs hikey-m-workarounds-low-mem MARSHMALLOW-MLCR-PATCHSET marshmallow-gcc5-patchset marshmallow-gcc6-patchset"
 MALLOC_IMPL=dlmalloc
 TARGET_OPTIMIZE_FOR_SIZE=true
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-marshmallow
-TARGET_GCC_VERSION_EXP=5.4-linaro
+TARGET_GCC_VERSION_EXP=6.1-linaro
 LUNCH=hikey-userdebug
 TARGET_PRODUCT=hikey
 USE_JAVA_7=true
