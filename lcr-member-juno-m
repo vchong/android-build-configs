@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-6.0.1_r55
+MANIFEST_BRANCH=android-6.0.1_r63
 REPO_GROUPS="default,-device,arm"
 BUILD_FS_IMAGE=1
 PATCHSETS="juno-m-workarounds MARSHMALLOW-MLCR-PATCHSET marshmallow-gcc5-patchset marshmallow-gcc6-patchset"
