@@ -1,14 +1,12 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
 MANIFEST_BRANCH=android-7.0.0_r1
 REPO_GROUPS="default,-device,arm"
-BUILD_FS_IMAGE=1
-PATCHSETS="NOUGAT-MLCR-PATCHSET"
+#BUILD_FS_IMAGE=1
+PATCHSETS="juno-n-workarounds NOUGAT-MLCR-PATCHSET"
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-nougat
-#TARGET_GCC_VERSION_EXP=5.4-linaro
 LUNCH=juno-userdebug
 TARGET_PRODUCT=juno
-#USE_JAVA_7=true
 MAKE_JOBS=8
 WITH_DEXPREOPT=true
 WITH_HOST_DALVIK=true
