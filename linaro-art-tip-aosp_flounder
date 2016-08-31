@@ -4,3 +4,4 @@ LOCAL_MANIFEST_URL=ssh://git@dev-private-git.linaro.org/linaro-art/platform/mani
 LOCAL_MANIFEST_BRANCH=master
 LUNCH_TARGET=aosp_flounder-userdebug
 REPO_SEED_DIR=/home/buildslave/srv/linaro-art-tip-aosp-reference/
+PATCHSETS=aosp-tip-workarounds
