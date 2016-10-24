@@ -1,7 +1,7 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
 MANIFEST_BRANCH=android-7.0.0_r14
 REPO_GROUPS="default,-device,arm"
-#BUILD_FS_IMAGE=1
+BUILD_FS_IMAGE=1
 PATCHSETS="juno-n-workarounds NOUGAT-RLCR-PATCHSET"
 LOCAL_MANIFEST=git://android-git.linaro.org/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-nougat-arm
