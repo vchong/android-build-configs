@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-7.0.0_r14
+MANIFEST_BRANCH=android-7.1.0_r4
 REPO_GROUPS="default,-non-default,-device,hikey"
 PATCHSETS="hikey-n-workarounds NOUGAT-RLCR-PATCHSET"
 LOCAL_MANIFEST=git://android-git.linaro.org/platform/manifest.git
