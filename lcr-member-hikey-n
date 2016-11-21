@@ -21,3 +21,4 @@ REWRITE_MANIFEST=0
 TARGET_OUT_DIR=hikey
 SKIP_LICENSE_CHECK=1
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
+TARGET_SYSTEMIMAGES_USE_SQUASHFS=true
