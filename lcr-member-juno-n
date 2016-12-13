@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-7.1.1_r4
+MANIFEST_BRANCH=android-7.1.1_r6
 REPO_GROUPS="default,-device,arm"
 BUILD_FS_IMAGE=1
 PATCHSETS="juno-n-workarounds NOUGAT-MLCR-PATCHSET NOUGAT-BOOTTIME-OPTIMIZATIONS"
