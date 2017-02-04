@@ -18,4 +18,5 @@ SKIP_LICENSE_CHECK=1
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 SOURCE_OVERLAY="open/20131008/build-info.tar.bz2"
 LAVA_DEVICE_TYPE="x15"
+TARGET_BUILD_UBOOT=true
 TARGET_BUILD_KERNEL=true
