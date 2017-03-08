@@ -1,7 +1,0 @@
-MANIFEST_REPO=http://android-git.linaro.org/git/platform/manifest
-MANIFEST_BRANCH=master
-MANIFEST_FILENAME=default.xml
-USE_JAVA_7=true
-LUNCH=aosp_flo-userdebug
-SOURCE_OVERLAY="flo/android-5.1/build-info.tar.bz2"
-MAKE_TARGETS=droidcore
