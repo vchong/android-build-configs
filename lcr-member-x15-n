@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-7.1.2_r5
+MANIFEST_BRANCH=android-7.1.2_r6
 REPO_GROUPS="default,-non-default,-device,ti"
 PATCHSETS="x15-n-workarounds NOUGAT-MLCR-PATCHSET NOUGAT-BOOTTIME-OPTIMIZATIONS-X15"
 LOCAL_MANIFEST=ssh://git@dev-private-git.linaro.org/linaro-art/platform/manifest.git
