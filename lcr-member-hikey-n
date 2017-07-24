@@ -23,3 +23,5 @@ REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 TARGET_SYSTEMIMAGES_USE_SQUASHFS=true
 TARGET_GCC_VERSION_EXP=6.3-linaro
 CFG_SECURE_DATA_PATH=y
+TARGET_TEE_IS_OPTEE=true
+TARGET_BUILD_UEFI=true
