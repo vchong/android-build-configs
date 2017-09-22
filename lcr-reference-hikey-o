@@ -1,7 +1,7 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
 MANIFEST_BRANCH=android-8.0.0_r12
 REPO_GROUPS="default,-non-default,-device,hikey"
-PATCHSETS="hikey-o-workarounds get-hikey-blobs O-RLCR-PATCHSET hikey-optee-o hikey-optee-4.9 hikey-clang-4.9"
+PATCHSETS="hikey-o-workarounds get-hikey-blobs O-RLCR-PATCHSET hikey-optee-o hikey-optee-4.9"
 LOCAL_MANIFEST=git://android-git.linaro.org/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-oreo
 LUNCH=hikey-userdebug
@@ -14,7 +14,6 @@ REPO_QUIET=false
 TARGET_BUILD_VARIANT=userdebug
 MAKE_TARGETS="droidcore"
 TARGET_BUILD_KERNEL=true
-KERNEL_BUILD_WITH_CLANG=true
 TARGET_BOOTIMAGE_USE_FAT=true
 SOURCE_OVERLAY="members-only/20131022/build-info.tar.bz2"
 REWRITE_MANIFEST=0
