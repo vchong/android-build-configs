@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-8.0.0_r17
+MANIFEST_BRANCH=android-8.0.0_r34
 REPO_GROUPS="default,-device,arm"
 BUILD_FS_IMAGE=1
 PATCHSETS="O-RLCR-PATCHSET"
