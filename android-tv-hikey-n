@@ -24,3 +24,4 @@ REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 TARGET_TEE_IS_OPTEE=true
 CFG_SECURE_DATA_PATH=y
 TARGET_BUILD_UEFI=true
+CFG_CONSOLE_UART=3
