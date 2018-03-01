@@ -1,6 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest
 MANIFEST_BRANCH=master
-REPO_GROUPS="default,-device,-non-default,hikey"
 MAKE_JOBS=16
 USE_JAVA_7=true
 TARGET_BOOTIMAGE_USE_FAT=true
