@@ -15,6 +15,7 @@ REPO_GROUPS="default,-non-default,-device,hikey"
 REPO_QUIET=false
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 REWRITE_MANIFEST=0
+SKIP_LAVA=1
 SKIP_LICENSE_CHECK=1
 SOURCE_OVERLAY=members-only/20131022/build-info.tar.bz2
 TARGET_BOOTIMAGE_USE_FAT=true
