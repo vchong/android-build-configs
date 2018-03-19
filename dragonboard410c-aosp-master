@@ -10,3 +10,4 @@ LUNCH=db410c32_only-userdebug
 TARGET_PRODUCT=dragonboard410c
 TARGET_SIMULATOR=false
 BUILD_DIR=96boards-hikey-aosp-master
+ALLOW_MISSING_DEPENDENCIES=true
