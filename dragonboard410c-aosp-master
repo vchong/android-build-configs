@@ -1,6 +1,6 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest
 MANIFEST_BRANCH=master
-LOCAL_MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
+LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=dragonboard
 MAKE_JOBS=16
 USE_JAVA_7=true
