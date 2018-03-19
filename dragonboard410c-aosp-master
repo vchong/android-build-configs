@@ -8,6 +8,7 @@ MAKE_TARGETS="dist"
 MANIFEST_FILENAME=default.xml
 LUNCH=db410c32_only-userdebug
 TARGET_PRODUCT=dragonboard410c
+TARGET_OUT_DIR=db410c32_only
 TARGET_SIMULATOR=false
 BUILD_DIR=96boards-hikey-aosp-master
 ALLOW_MISSING_DEPENDENCIES=true
