@@ -1,0 +1,14 @@
+MANIFEST_REPO=https://android.googlesource.com/platform/manifest
+MANIFEST_BRANCH=master
+LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
+LOCAL_MANIFEST_BRANCH=dragonboard
+MAKE_JOBS=16
+USE_JAVA_7=true
+MAKE_TARGETS="dist"
+MANIFEST_FILENAME=default.xml
+LUNCH=db820c-userdebug
+TARGET_PRODUCT=dragonboard410c
+TARGET_OUT_DIR=db410c32_only
+TARGET_SIMULATOR=false
+BUILD_DIR=96boards-hikey-aosp-master
+ALLOW_MISSING_DEPENDENCIES=true
