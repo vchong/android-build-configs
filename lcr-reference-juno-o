@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-8.1.0_r22
+MANIFEST_BRANCH=android-8.1.0_r23
 REPO_GROUPS="default,-device,arm"
 # BUILD_FS_IMAGE=1
 PATCHSETS="juno-o-workarounds"
