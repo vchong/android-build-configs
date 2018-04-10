@@ -10,5 +10,4 @@ LUNCH=db820c-userdebug
 TARGET_PRODUCT=dragonboard410c
 TARGET_OUT_DIR=db820c
 TARGET_SIMULATOR=false
-BUILD_DIR=96boards-hikey-aosp-master
 ALLOW_MISSING_DEPENDENCIES=true
