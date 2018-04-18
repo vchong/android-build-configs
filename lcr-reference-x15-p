@@ -1,7 +1,7 @@
 MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
 MANIFEST_BRANCH=android-p-preview-1
 REPO_GROUPS="default,-non-default,-device,ti"
-PATCHSETS="x15-o-workarounds O-RLCR-PATCHSET"
+PATCHSETS="x15-p-workarounds P-RLCR-PATCHSET"
 LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-p-preview
 LUNCH=am57xevm_full-userdebug
@@ -18,6 +18,7 @@ SKIP_LICENSE_CHECK=1
 REPO_SEED_DIR=/home/buildslave/workspace/linaro-android_aosp-reference-mirror
 SOURCE_OVERLAY="open/20131008/build-info.tar.bz2"
 LAVA_DEVICE_TYPE="x15"
+TARGET_BUILD_ITBS=true
 TARGET_BUILD_UBOOT=true
 TARGET_BUILD_KERNEL=true
 UBOOT_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2-linaro/bin/arm-linux-androideabi-
