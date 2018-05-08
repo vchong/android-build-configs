@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
-MANIFEST_BRANCH=android-8.1.0_r23
+MANIFEST_BRANCH=android-8.1.0_r29
 REPO_GROUPS="default,-non-default,-device,hikey"
 PATCHSETS="hikey-o-workarounds O-RLCR-PATCHSET hikey-optee-o optee-310-workarounds hikey-optee-4.9 OREO-BOOTTIME-OPTIMIZATIONS-HIKEY"
 LOCAL_MANIFEST=git://android-git.linaro.org/platform/manifest.git
