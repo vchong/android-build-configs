@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
-MANIFEST_BRANCH=android-p-preview-1
+MANIFEST_BRANCH=android-p-preview-2
 REPO_GROUPS="default,-non-default,-device,ti"
 PATCHSETS="x15-p-workarounds P-RLCR-PATCHSET"
 LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
