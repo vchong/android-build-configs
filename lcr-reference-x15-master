@@ -1,7 +1,7 @@
 MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
 MANIFEST_BRANCH=master
 REPO_GROUPS="default,-non-default,-device,ti"
-PATCHSETS="x15-p-workarounds MASTER-RLCR-PATCHSET"
+PATCHSETS="x15-master-workarounds-lcr MASTER-RLCR-PATCHSET"
 LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-master
 LUNCH=am57xevm_full-userdebug
