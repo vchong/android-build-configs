@@ -25,3 +25,4 @@ KERNEL_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2-linaro
 BOARD_USES_FULL_RECOVERY_IMAGE=true
 TARGET_USES_MKE2FS=true
 BUILD_DIR=r-lcr-oreo
+ALLOW_MISSING_DEPENDENCIES=true
