@@ -23,3 +23,5 @@ TARGET_BUILD_KERNEL=true
 UBOOT_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2-linaro/bin/arm-linux-androideabi-
 KERNEL_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2-linaro/bin/arm-linux-androideabi-
 BOARD_USES_FULL_RECOVERY_IMAGE=true
+VTS_PKG_URL=http://testdata.linaro.org/lkft/aosp/aosp-master-06282018/android-vts.zip
+CTS_PKG_URL=http://testdata.linaro.org/cts/aosp-master/android-cts-aosp-master-06282018-lcr.zip
