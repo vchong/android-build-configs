@@ -28,3 +28,4 @@ TARGET_TEE_IS_OPTEE=true
 OPTEE_PLATFORM_FLAVOR=hikey
 TARGET_BUILD_UEFI=true
 BUILD_DIR=r-lcr-oreo
+VTS_PKG_URL=http://testdata.linaro.org/vts/oreo-mr1-vts-release-07112018/android-vts.zip

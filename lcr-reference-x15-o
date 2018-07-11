@@ -26,3 +26,4 @@ BOARD_USES_FULL_RECOVERY_IMAGE=true
 TARGET_USES_MKE2FS=true
 BUILD_DIR=r-lcr-oreo
 ALLOW_MISSING_DEPENDENCIES=true
+VTS_PKG_URL=http://testdata.linaro.org/vts/oreo-mr1-vts-release-07112018/android-vts.zip
