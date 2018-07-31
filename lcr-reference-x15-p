@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
-MANIFEST_BRANCH=android-p-preview-2
+MANIFEST_BRANCH=android-p-preview-5
 REPO_GROUPS="default,-non-default,-device,ti"
 PATCHSETS="x15-p-workarounds P-RLCR-PATCHSET"
 LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
@@ -24,3 +24,6 @@ UBOOT_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2-linaro/
 KERNEL_TOOLS_PREFIX=prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2-linaro/bin/arm-linux-androideabi-
 BOARD_USES_FULL_RECOVERY_IMAGE=true
 BUILD_DIR=r-lcr-oreo
+ANDROID_VERSION_SUFFIX=master
+VTS_PKG_URL=http://testdata.linaro.org/lkft/aosp/aosp-master-06282018/android-vts.zip
+CTS_PKG_URL=http://testdata.linaro.org/cts/aosp-master/android-cts-arm-882-lcr.zip
