@@ -1,7 +1,7 @@
 MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
-MANIFEST_BRANCH=android-p-preview-5
-REPO_GROUPS="default,-non-default,-device,hikey"
-PATCHSETS="P-RLCR-PATCHSET hikey-p-workarounds hikey-optee-p optee-master-workarounds hikey-optee-4.9"
+MANIFEST_BRANCH=android-9.0.0_r3
+REPO_GROUPS="default,-notdefault,-device,hikey"
+PATCHSETS="P-RLCR-PATCHSET hikey-p-workarounds hikey-optee-p optee-master-workarounds hikey-optee-4.14"
 LOCAL_MANIFEST=git://android-git.linaro.org/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-p-preview
 LUNCH=hikey-userdebug
