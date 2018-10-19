@@ -1,7 +1,7 @@
 MANIFEST_REPO=https://android.googlesource.com/platform/manifest.git
 MANIFEST_BRANCH=master
 REPO_GROUPS="default,-notdefault,-device,hikey"
-PATCHSETS="MASTER-RLCR-PATCHSET hikey-master-workarounds hikey-optee-master hikey-optee-4.14 optee-master-workarounds hikey-optee-master-pullreqs swg-mods-master"
+PATCHSETS="hikey-optee-master-pullreqs MASTER-RLCR-PATCHSET hikey-master-workarounds hikey-optee-master hikey-optee-4.14 optee-master-workarounds swg-mods-master"
 LOCAL_MANIFEST=https://android-git.linaro.org/git/platform/manifest.git
 LOCAL_MANIFEST_BRANCH=linaro-master
 LUNCH=hikey-userdebug
