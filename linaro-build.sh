@@ -9,8 +9,9 @@ CPUS=$(nproc)
 # 2. support for OUT_DIR specification
 # 3. support for repo sync multiple configs
 #    into one workspace
+# 4. use android-build-configs/linaro-build.sh
+#    when exists
 ##########################################
-
 
 ### variables could be changed via parameters
 build_config=lcr-reference-hikey-p
@@ -60,7 +61,9 @@ function repo_sync_patch(){
     fi
 
     if [ -d .repo/local_manifests ]; then
+        pushd .repo/local_manifests
         git pull
+        popd
     else
         git clone "${LOCAL_MANIFEST}" -b "${LOCAL_MANIFEST_BRANCH}" .repo/local_manifests
     fi
