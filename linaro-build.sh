@@ -17,6 +17,7 @@ CPUS=$(nproc)
 build_config=lcr-reference-hikey-p
 MIRROR=""
 skip_init=false
+skip_sync=false
 
 ########### workarounds ##################
 # workaround for boot_fat.uefi.img for error:
@@ -92,6 +93,7 @@ function build_with_config(){
 
 function print_usage(){
     echo "$(basename $0) [-si|--skip_init] [-c|--config <config file name>] [-m|--mirror mirror_url]"
+    echo -e "\t -ss|--skip-sync: skip to run repo sync and apply patchsets, for cases like only build"
     echo -e "\t -si|--skip-init: skip to run repo init, for cases like run on hackbox"
     echo -e "\t -c|--config branch: build config file name under:"
     echo -e "\t\t\thttps://android-git.linaro.org/android-build-configs.git/tree"
@@ -104,6 +106,10 @@ function print_usage(){
 function parseArgs(){
     while [ -n "$1" ]; do
         case "X$1" in
+            X-ss|X--skip-sync)
+                skip_sync=true
+                shift
+                ;;
             X-si|X--skip-init)
                 skip_init=true
                 shift
@@ -144,7 +150,9 @@ function parseArgs(){
 
 function main(){
     parseArgs "$@"
-    repo_sync_patch
+    if ! ${skip_sync}; then
+        repo_sync_patch
+    fi
     build_with_config
 }
 
