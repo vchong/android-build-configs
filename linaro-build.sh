@@ -46,9 +46,14 @@ function export_config(){
 }
 
 function repo_sync_patch(){
-    f_tmp=$(mktemp -u lcr-XXX)
-    wget ${build_config_url}/${build_config} -O ${f_tmp}
-    export_config ${f_tmp}
+    if [ ! -f android-build-configs/${build_config} ]; then
+        f_tmp=$(mktemp -u lcr-XXX)
+        wget ${build_config_url}/${build_config} -O ${f_tmp}
+        export_config ${f_tmp}
+        rm -fr ${f_tmp}
+    else
+        export_config android-build-configs/${build_config}
+    fi
     if ! ${skip_init}; then
         while ! repo init \
             -u "${MIRROR:-${MANIFEST_REPO}}" \
@@ -75,7 +80,6 @@ function repo_sync_patch(){
     for patch in ${PATCHSETS}; do
         ./android-patchsets/${patch}
     done
-    rm -fr ${f_tmp}
 }
 
 function build_with_config(){
