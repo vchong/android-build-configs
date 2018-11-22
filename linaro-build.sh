@@ -177,11 +177,26 @@ function parseArgs(){
     done
 }
 
+function install_packages(){
+    # Some of the packges might be not necessary anymore for
+    # android build, but not going to figure them out here.
+    sudo apt-get update
+    packages="acpica-tools bc bison build-essential ccache curl flex genisoimage"
+    packages="${packages} git git-core g++-multilib gnupg gperf lib32ncurses5-dev lib32z-dev"
+    packages="${packages} libc6-dev-i386 libdrm-intel1 libgl1-mesa-dev liblz4-tool libssl-dev"
+    packages="${packages} libx11-dev libxml2-utils linaro-image-tools lzop mtools openjdk-8-jdk"
+    packages="${packages} patch python-crypto python-mako python-parted python-pip python-requests"
+    packages="${packages} python-wand python-yaml rsync time u-boot-tools unzip uuid-dev"
+    packages="${packages} vim-common wget x11proto-core-dev xsltproc zip zlib1g-dev"
+    sudo apt-get install -y ${packages}
+}
+
 function main(){
     parseArgs "$@"
     if ! ${skip_sync}; then
         repo_sync_patch
     fi
+    install_packages
     build_with_config
 }
 
