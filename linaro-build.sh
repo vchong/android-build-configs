@@ -5,12 +5,9 @@ CUR_DIR=$(pwd)
 CPUS=$(nproc)
 
 #### TODO LIST ###########################
-# 1. support for pinned manifest
-# 2. support for OUT_DIR specification
-# 3. support for repo sync multiple configs
+# 1. support for OUT_DIR specification
+# 2. support for repo sync multiple configs
 #    into one workspace
-# 4. use android-build-configs/linaro-build.sh
-#    when exists
 ##########################################
 
 ### variables could be changed via parameters
@@ -18,6 +15,7 @@ build_config=lcr-reference-hikey-p
 MIRROR=""
 skip_init=false
 skip_sync=false
+PINNED_MANIFEST=""
 
 ########### workarounds ##################
 # workaround for boot_fat.uefi.img for error:
@@ -66,15 +64,33 @@ function repo_sync_patch(){
         done
     fi
 
-    if [ -d .repo/local_manifests ]; then
-        pushd .repo/local_manifests
-        git pull
-        popd
-    else
-        git clone "${LOCAL_MANIFEST}" -b "${LOCAL_MANIFEST_BRANCH}" .repo/local_manifests
+    # only clone or update local_manifests when pinned manifest file not exist
+    if [ -z "${PINNED_MANIFEST}" ]; then
+        if [ -d .repo/local_manifests ]; then
+            pushd .repo/local_manifests
+            git pull
+            popd
+        else
+            git clone "${LOCAL_MANIFEST}" -b "${LOCAL_MANIFEST_BRANCH}" .repo/local_manifests
+        fi
+    elif [ -d .repo/local_manifests ]; then
+        echo "Please remove the .repo/local_manifests directory first"
+        echo "Otherwise duplicate of projects error might be reported"
+        exit 1
     fi
-    while ! repo sync -j${CPUS}; do
-        echo "Try again for repo sync"
+
+    if [ -n "${PINNED_MANIFEST}" ]; then
+        PINNED_MANIFEST_name=$(basename ${PINNED_MANIFEST})
+        PINNED_MANIFEST_dir=$(cd $(dirname ${PINNED_MANIFEST}); pwd)
+        PINNED_MANIFEST_ABS="${PINNED_MANIFEST_dir}/${PINNED_MANIFEST_name}"
+        repo_sync_cmd="repo sync -c -j${CPUS} -m ${PINNED_MANIFEST_ABS}"
+    else
+        repo_sync_cmd="repo sync -c -j${CPUS}"
+    fi
+
+    while ! ${repo_sync_cmd}; do
+        echo "Try again for repo sync in one minute"
+        sleep 60
     done
 
     for patch in ${PATCHSETS}; do
@@ -96,13 +112,14 @@ function build_with_config(){
 }
 
 function print_usage(){
-    echo "$(basename $0) [-si|--skip_init] [-c|--config <config file name>] [-m|--mirror mirror_url]"
+    echo "$(basename $0) [-si|--skip_init] [-c|--config <config file name>] [-m|--mirror mirror_url] [-pm|--pinned-manifest]"
     echo -e "\t -ss|--skip-sync: skip to run repo sync and apply patchsets, for cases like only build"
     echo -e "\t -si|--skip-init: skip to run repo init, for cases like run on hackbox"
     echo -e "\t -c|--config branch: build config file name under:"
     echo -e "\t\t\thttps://android-git.linaro.org/android-build-configs.git/tree"
     echo -e "\t\tdefault is lcr-reference-hikey-p"
     echo -e "\t -m|--mirror mirror_url: specify the url where you want to sync from"
+    echo -e "\t -pm|--pinned-manifest file_path: specify the path where you put the pinned manifest file"
     echo "$(basename $0) [-h|--help]"
     echo -e "\t -h|--help: print this usage"
 }
@@ -132,6 +149,14 @@ function parseArgs(){
                     exit 1
                 fi
                 MIRROR="$2"
+                shift 2
+                ;;
+            X-pm|X--pinned-manifest)
+                if [ -z "$2" ]; then
+                    echo "Please specify the path for the pinned manifest file with the -pm|--pinned-manifest option"
+                    exit 1
+                fi
+                PINNED_MANIFEST="$2"
                 shift 2
                 ;;
             X-h|X--help)
