@@ -30,4 +30,5 @@ TARGET_TEE_IS_OPTEE=true
 OPTEE_PLATFORM_FLAVOR=hikey
 TARGET_BUILD_UEFI=true
 ANDROID_VERSION_SUFFIX=master
-SKIP_LAVA=1
+VTS_PKG_URL=http://testdata.linaro.org/lkft/aosp/aosp-master-06282018/android-vts.zip
+CTS_PKG_URL=http://testdata.linaro.org/cts/aosp-master/android-cts-aosp-master-06282018-lcr.zip

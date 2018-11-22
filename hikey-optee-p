@@ -31,4 +31,5 @@ OPTEE_PLATFORM_FLAVOR=hikey
 TARGET_BUILD_UEFI=true
 BUILD_DIR=r-lcr-oreo
 ANDROID_VERSION_SUFFIX=master
-SKIP_LAVA=1
+VTS_PKG_URL=http://people.linaro.org/~yongqin.liu/vts/android-vts-pie-vts-dev.zip
+CTS_PKG_URL=http://people.linaro.org/~yongqin.liu/cts/android-cts-9.0_r4-linux_x86-arm-linaro.zip
