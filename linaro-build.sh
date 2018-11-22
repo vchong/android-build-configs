@@ -107,7 +107,7 @@ function build_with_config(){
 
     echo "Start to build:" >>time.log
     date +%Y-%m-%d-%H-%M >>time.log
-    (time LANG=C make ${MAKE_TARGETS} -j${CPUS} ) 2>&1 |tee build-${product}.log
+    (time LANG=C make ${MAKE_TARGETS} -j${CPUS} ) 2>&1 |tee build-${TARGET_PRODUCT}.log
     date +%Y-%m-%d-%H-%M >>time.log
 }
 
