@@ -1,5 +1,5 @@
 MANIFEST_REPO=https://android-git.linaro.org/git/platform/manifest.git
-MANIFEST_BRANCH=android-9.0.0_r10
+MANIFEST_BRANCH=android-9.0.0_r18
 REPO_GROUPS="default,-notdefault,-device,hikey"
 PATCHSETS="hikey-optee-p-pullreqs P-RLCR-PATCHSET hikey-p-workarounds hikey-optee-p optee-master-workarounds hikey-optee-4.14 swg-mods-p swg-kmgk-common"
 LOCAL_MANIFEST=git://android-git.linaro.org/platform/manifest.git
