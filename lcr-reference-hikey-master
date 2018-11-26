@@ -31,3 +31,6 @@ TARGET_BUILD_UEFI=true
 ANDROID_VERSION_SUFFIX=master
 VTS_PKG_URL=http://testdata.linaro.org/lkft/aosp/aosp-master-06282018/android-vts.zip
 CTS_PKG_URL=http://testdata.linaro.org/cts/aosp-master/android-cts-aosp-master-06282018-lcr.zip
+PLAN_CHANGE=plan_change_hi6220-p
+PLAN_WEEKLY=plan_weekly_hi6220-p
+
