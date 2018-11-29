@@ -37,8 +37,11 @@ build_config_url="https://android-git.linaro.org/android-build-configs.git/plain
 function export_config(){
     local f_config=$1
     while read line; do
+        if grep -q '^$'; then
+            continue
+        fi
         if ! echo $line |grep -q '^#'; then
-        eval "export $line"
+            eval "export $line"
         fi
     done < ${f_config}
 }
