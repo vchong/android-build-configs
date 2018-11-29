@@ -37,7 +37,7 @@ build_config_url="https://android-git.linaro.org/android-build-configs.git/plain
 function export_config(){
     local f_config=$1
     while read line; do
-        if grep -q '^$'; then
+        if echo "${line}"|tr -d '[:blank:]'|grep -q '^$'; then
             continue
         fi
         if ! echo $line |grep -q '^#'; then
@@ -51,7 +51,7 @@ function repo_sync_patch(){
         f_tmp=$(mktemp -u lcr-XXX)
         wget ${build_config_url}/${build_config} -O ${f_tmp}
         export_config ${f_tmp}
-        rm -fr ${f_tmp}
+        #rm -fr ${f_tmp}
     else
         export_config android-build-configs/${build_config}
     fi
