@@ -37,5 +37,4 @@ TARGET_BUILD_UEFI=true
 BUILD_DIR=r-lcr-oreo
 ANDROID_VERSION_SUFFIX=master
 SKIP_LAVA=1
-BUILD_VENDOR_FOR_4_4=true
 KERNEL_CLANG=prebuilts/clang/host/linux-x86/clang-r346389b/bin/clang
