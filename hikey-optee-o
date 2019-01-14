@@ -31,3 +31,6 @@ TARGET_BUILD_UEFI=true
 BUILD_DIR=r-lcr-oreo
 VTS_PKG_URL=http://testdata.linaro.org/vts/oreo-mr1-vts-release-07112018/android-vts.zip
 CTS_PKG_URL=http://people.linaro.org/~yongqin.liu/cts/android-cts-8.1_r10-linux_x86-arm-linaro.zip
+KERNEL_BUILD_WITH_CLANG=true
+CLANG_TRIPLE=aarch64-linux-gnu-
+KERNEL_CLANG=prebuilts/clang/host/linux-x86/clang-r346389b/bin/clang
