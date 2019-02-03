@@ -34,3 +34,4 @@ CTS_PKG_URL=http://people.linaro.org/~yongqin.liu/cts/android-cts-8.1_r10-linux_
 KERNEL_BUILD_WITH_CLANG=true
 CLANG_TRIPLE=aarch64-linux-gnu-
 KERNEL_CLANG=prebuilts/clang/host/linux-x86/clang-r346389b/bin/clang
+USE_TEST_KBOX=true
