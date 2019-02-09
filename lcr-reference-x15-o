@@ -28,3 +28,4 @@ BUILD_DIR=r-lcr-oreo
 ALLOW_MISSING_DEPENDENCIES=true
 VTS_PKG_URL=http://testdata.linaro.org/vts/oreo-mr1-vts-release-07112018/android-vts.zip
 CTS_PKG_URL=http://people.linaro.org/~yongqin.liu/cts/android-cts-8.1_r10-linux_x86-arm-linaro.zip
+X15_BOOT_ARGS=androidboot.serialno=\${serial#} console=ttyS2,115200 androidboot.console=ttyS2 androidboot.hardware=am57xevmboard
