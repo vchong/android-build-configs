@@ -38,4 +38,3 @@ BUILD_DIR=r-lcr-oreo
 ANDROID_VERSION_SUFFIX=master
 SKIP_LAVA=1
 KERNEL_CLANG=prebuilts/clang/host/linux-x86/clang-r346389b/bin/clang
-USE_TEST_KBOX=true

@@ -34,4 +34,3 @@ ANDROID_VERSION_SUFFIX=master
 VTS_PKG_URL=http://people.linaro.org/~yongqin.liu/vts/android-vts-pie-vts-dev.zip
 CTS_PKG_URL=http://people.linaro.org/~yongqin.liu/cts/android-cts-9.0_r5-linux_x86-arm-linaro.zip
 KERNEL_CLANG=prebuilts/clang/host/linux-x86/clang-r346389b/bin/clang
-USE_TEST_KBOX=true
